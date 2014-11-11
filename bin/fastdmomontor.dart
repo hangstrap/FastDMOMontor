@@ -9,7 +9,7 @@ import 'package:http/http.dart' as http;
 
 Directory logDirectory = new Directory( "logging");
 
-
+int scancount =0;
 Logger log = new Logger( "FastDmoMonitor");
 
 class Server {
@@ -21,9 +21,9 @@ class Server {
 
 List<Server> servers = [new Server("ec.prod", "isapps:M3ts3rv1c3@fastdmo-ec.amazon.metcloudservices.com:8080"), 
                         new Server("gfs.prod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon.metcloudservices.com:8080"), 
-                        new Server("ec.preprod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon-preprod.metcloudservices.com:8080"), 
+                        new Server("ec.preprod", "isapps:M3ts3rv1c3@fastdmo-ec.amazon-preprod.metcloudservices.com:8080"), 
                         new Server("gfs.preprod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon-preprod.metcloudservices.com:8080"),
-                    new Server("localhost", "isapps:Metservice@localhost:8090"),
+new Server("localhost", "isapps:Metservice@localhost:8090"),
 ];
 
 Future<String> getStatus(Server server) {
@@ -102,7 +102,10 @@ String formatTime(DateTime time){
 }
 
 void scanServers() {
-  log.fine( "Scannning servers");
+  if( scancount % 10 == 0){
+    log.info( "Scannning servers ${scancount} attempt" );
+  }
+  scancount++;
   
   servers.forEach((server) {
     getStatus(server).then( (result) => processStatus( server, result));
