@@ -1,4 +1,6 @@
 name: FastDMOMontor
 description: A sample command-line application
 dependencies:
+  http: any
   http_server: any
+  intl: any
