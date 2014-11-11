@@ -1,10 +1,16 @@
 import "dart:async";
 import "dart:core";
 import "dart:io";
+import "package:logging/logging.dart";
 
 import 'package:intl/intl.dart';
 
 import 'package:http/http.dart' as http;
+
+Directory logDirectory = new Directory( "logging");
+
+
+Logger log = new Logger( "FastDmoMonitor");
 
 class Server {
   String name;
@@ -29,7 +35,7 @@ Future<String> getStatus(Server server) {
     completer.complete( response.body);
   })
   .catchError( (e){ 
-    print( e);
+    log.info ( "Could not access server ${server.name} ${e}");
     completer.complete( "error");
    });
 
@@ -39,13 +45,13 @@ Future<String> getStatus(Server server) {
 
 void processStatus( Server server, String status){
   
-  print( "${server.name} old status = ${server.status} new status= ${status}");
+  log.fine( "${server.name} old status = ${server.status} new status= ${status}");
   switch( status){
     case "OK": server.status="OK"; break;
     case "error": server.status="error"; break;
     default:
       if( status != server.status ){
-        print( "had a change in status");
+        log.info( "${server.name} old status = ${server.status} new status= ${status} - server moved to a fault state");
         downloadCurrentLog( server);
       }
       break;        
@@ -60,46 +66,44 @@ void downloadCurrentLog( Server server){
   
   Uri url = new Uri.http(server.url, "/browseDirectories", {"path":"\log\fastdmo.${server.name}.log"});
 
-  print( "about to download log for ${server.name} ${url}");
+  log.info( "about to download log for ${server.name} ${url}");
   
   http.get( url).then( (response) {
     if( response.statusCode == 200){
          
 
         String now= formatCurrentTime();      
-        String fileName = "/Temp/fastDMOMonitoring/${server.name}-${now.toString()}.log";
+        String fileName = "${logDirectory.path}/${server.name}-${now.toString()}.log";
         
         File output = new File( fileName);
         
         output.writeAsString( response.body)
-        .then( (file)=>print( "Downloaded log as ${fileName}"))
-        .catchError( (e)=>print( "Could not download file ${e}"));
-         
+        .then( (file)=> log.fine( "Saved log as ${fileName}"))
+        .catchError( (e)=>log.warning( "Could not save file ${e}"));
+        
             
     }else{
-      throw "could not download log file";
+      throw "Website returned status code of ${response.statusCode}";
     }
-    print( response.statusCode);
   })
   .catchError( (e){ 
-    print( e);
+      log.warning( "could not download file ${e}");
    });
 
   
 }
 
 String formatCurrentTime(){
-  DateTime now = new DateTime.now().toUtc();
-  DateFormat df = new DateFormat( DateFormat.YEAR_NUM_MONTH_DAY+ '-' +DateFormat.HOUR24_MINUTE_SECOND);
-  return df.format( now);
+  return formatTime(new DateTime.now() );
+}
+String formatTime(DateTime time){
+  DateFormat df = new DateFormat( "yMd-hms");
+  return df.format( time.toUtc());
 }
 
 void scanServers() {
-  print( "Scannning servers");
+  log.fine( "Scannning servers");
   
-
-
-
   servers.forEach((server) {
     getStatus(server).then( (result) => processStatus( server, result));
   });
@@ -108,9 +112,29 @@ void scanServers() {
 
 }
 
-void main() {
+void setUpLogger(){
+  
+  logDirectory.create();
+  File logger = new File( "${logDirectory.path}/logger.log");
+  logger.create( recursive: true);
+  
+  Logger.root.level = Level.INFO;
+  Logger.root.onRecord.listen((LogRecord rec) {
+    
+    String msg = '${rec.level.name}: ${formatTime( rec.time)}: ${rec.message}'; 
+    logger.writeAsString( msg +"\n", mode:FileMode.APPEND, flush: true);
+    print( msg);
+  });
 
+
+}
+
+void main() {
+  
+  setUpLogger();
   Duration duration = new Duration( seconds:15);
   Timer timer = new Timer.periodic( duration, (t)=>scanServers());
+  
+  log.info( "Starting up monitor");
   
 }

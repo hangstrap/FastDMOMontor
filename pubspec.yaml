@@ -4,3 +4,4 @@ dependencies:
   http: any
   http_server: any
   intl: any
+  logging: any
