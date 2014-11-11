@@ -64,7 +64,7 @@ void downloadCurrentLog( Server server){
   
 
   
-  Uri url = new Uri.http(server.url, "/browseDirectories", {"path":"\log\fastdmo.${server.name}.log"});
+  Uri url = new Uri.http(server.url, "/downloadFile", {"path":"log/fastdmo.${server.name}.log"});
 
   log.info( "about to download log for ${server.name} ${url}");
   
@@ -78,7 +78,7 @@ void downloadCurrentLog( Server server){
         File output = new File( fileName);
         
         output.writeAsString( response.body)
-        .then( (file)=> log.fine( "Saved log as ${fileName}"))
+        .then( (file)=> log.info( "Saved log as ${fileName}"))
         .catchError( (e)=>log.warning( "Could not save file ${e}"));
         
             
