@@ -11,8 +11,7 @@ import 'monitor_health_utils.dart' as monitor_health_utils;
 
 
 Directory logDirectory = new Directory("logging");
-
-
+int scancount = 0;
 Logger log = new Logger("fastdmomonitor");
 
 List<Server> servers = [new Server("ec.prod", "isapps:M3ts3rv1c3@fastdmo-ec.amazon.metcloudservices.com:8080"), 
@@ -21,6 +20,7 @@ List<Server> servers = [new Server("ec.prod", "isapps:M3ts3rv1c3@fastdmo-ec.amaz
                         new Server("gfs.preprod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon-preprod.metcloudservices.com:8080"), 
                         new Server("localhost", "isapps:Metservice@localhost:8090"),];
 
+List<MonitorHealth> healthMonitors = [];
 
 void setUpLogger() {
 
@@ -28,24 +28,35 @@ void setUpLogger() {
   File logger = new File("${logDirectory.path}/logger.log");
   logger.create(recursive: true);
 
-  Logger.root.level = Level.FINE;
+  Logger.root.level = Level.INFO;
   Logger.root.onRecord.listen((LogRecord rec) {
 
     String msg = '${rec.level.name}: ${monitor_health_utils.formatTime( rec.time)}: ${rec.message}';
     logger.writeAsString(msg + "\n", mode: FileMode.APPEND, flush: true);
     print(msg);
   });
+}
 
-
+void scanServers(){
+  if (scancount % 10 == 0) {
+      log.info("Scannning servers ${scancount} attempt");
+    }
+    scancount++;
+  
+  healthMonitors.forEach( (healthMonitor) => healthMonitor.scanServer());
 }
 
 void main() {
 
   setUpLogger();
-  Duration duration = new Duration(seconds: 15);
-  MonitorHealth monitorHealth = new MonitorHealth(logDirectory, servers);
-  Timer timer = new Timer.periodic(duration, (t) => monitorHealth.scanServers());
-
-  log.info("Starting up monitor");
+  Duration scanDuration = new Duration(seconds: 15);
+  
+  servers.forEach( (Server server) {
+    
+    healthMonitors.add( new MonitorHealth(logDirectory, server));
+    log.info("Starting up monitor for ${server.name}");
+  });
+  
+  new Timer.periodic(scanDuration, (t) => scanServers());  
 
 }

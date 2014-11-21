@@ -14,23 +14,16 @@ import 'monitor_health_utils.dart' as monitor_health_utils;
 
 class MonitorHealth {
 
-  int scancount = 0;
   Logger log = new Logger("monitor_health");
   final Directory logDirectory;
-  final List<Server> servers;
+  final Server server;
 
-  MonitorHealth( this.logDirectory, this.servers);
-
+  MonitorHealth( this.logDirectory, this.server);
+  
 /**Public access through this method*/
-  void scanServers() {
-    if (scancount % 10 == 0) {
-      log.info("Scannning servers ${scancount} attempt");
-    }
-    scancount++;
-
-    servers.forEach((server) {
-      getStatus(server).then((result) => processStatus(server, result));
-    });
+  void scanServer() {
+    getStatus(server).then((result) => processStatus(server, result));
+   
   }
 
 
