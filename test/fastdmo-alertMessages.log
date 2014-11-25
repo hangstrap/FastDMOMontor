@@ -1,0 +1,1261 @@
+21 Nov 2014 10:16:24,956[Thread-9] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=6, analysisDate=2014-11-20]
+21 Nov 2014 10:16:44,008[Thread-9] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=12, analysisDate=2014-11-20]
+21 Nov 2014 10:16:58,207[Thread-9] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=18, analysisDate=2014-11-20]
+21 Nov 2014 10:17:12,365[Thread-9] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=24, analysisDate=2014-11-20]
+21 Nov 2014 10:17:26,529[Thread-9] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=30, analysisDate=2014-11-20]
+21 Nov 2014 10:26:49,957[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=6, analysisDate=2014-11-20]
+21 Nov 2014 10:27:07,316[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=12, analysisDate=2014-11-20]
+21 Nov 2014 10:27:21,990[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=18, analysisDate=2014-11-20]
+21 Nov 2014 10:58:12,301[Thread-184] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECENS, prognosisPeriod=6, analysisDate=2016-09-19]
+21 Nov 2014 10:58:12,304[Thread-184] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECENS, prognosisPeriod=12, analysisDate=2016-09-19]
+21 Nov 2014 10:58:36,058[Thread-208] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECDET, prognosisPeriod=3, analysisDate=2014-09-09]
+21 Nov 2014 10:58:36,059[Thread-208] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECDET, prognosisPeriod=6, analysisDate=2014-09-09]
+21 Nov 2014 10:58:57,777[Thread-231] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=ECENS, prognosisPeriod=6, analysisDate=2014-09-24]
+21 Nov 2014 10:59:05,959[Thread-262] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=GFSDET, prognosisPeriod=6, analysisDate=2013-09-11]
+21 Nov 2014 10:59:22,600[Thread-293] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSDET, prognosisPeriod=6, analysisDate=2013-09-12]
+21 Nov 2014 10:59:35,046[Thread-315] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECENS, prognosisPeriod=6, analysisDate=2014-09-24]
+21 Nov 2014 10:59:55,940[Thread-338] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECDET, prognosisPeriod=3, analysisDate=2014-09-09]
+21 Nov 2014 10:59:55,940[Thread-338] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECDET, prognosisPeriod=6, analysisDate=2014-09-09]
+21 Nov 2014 11:00:25,560[Thread-370] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=GFSENS, prognosisPeriod=6, analysisDate=2013-09-11]
+21 Nov 2014 11:00:36,357[Thread-370] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=GFSENS, prognosisPeriod=12, analysisDate=2013-09-11]
+21 Nov 2014 11:00:49,334[Thread-392] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECDET, prognosisPeriod=3, analysisDate=2014-09-09]
+21 Nov 2014 11:00:49,334[Thread-392] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECDET, prognosisPeriod=6, analysisDate=2014-09-09]
+21 Nov 2014 11:01:12,299[Thread-415] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECENS, prognosisPeriod=6, analysisDate=2014-09-19]
+21 Nov 2014 11:01:12,299[Thread-415] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=ECENS, prognosisPeriod=12, analysisDate=2014-09-19]
+21 Nov 2014 11:01:30,654[Thread-446] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=12, modelType=GFSENS, prognosisPeriod=6, analysisDate=2013-09-11]
+21 Nov 2014 11:01:45,024[Thread-485] ERROR FastDmoAppMonitor Queueing Alert:
+Severity:         SERIOUS ERROR - (An error. Requires human intervention to resolve it. An urgent fault.)
+Title:            Sanity Check Whole Package Corrupt
+Time:             2017-11-21T07:03:27.998Z
+Issue Type:       Input data problem.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Skipped.
+Affected Scope:   Package
+The reason for the Failure is:
+
+Corrupt data found in package: Metra_wind_gfsdet, prognosis:6, exceeds the threshold package has not been sent.
+
+21 Nov 2014 11:01:45,024[Thread-485] ERROR FastDmoAppMonitor Queueing Alert:
+Severity:         SERIOUS ERROR - (An error. Requires human intervention to resolve it. An urgent fault.)
+Title:            Sanity Check Whole Package Corrupt
+Time:             2017-11-21T07:03:27.998Z
+Issue Type:       Input data problem.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Skipped.
+Affected Scope:   Package
+The reason for the Failure is:
+
+Corrupt data found in package: Metra_wind_gfsdet, prognosis:6, exceeds the threshold package has not been sent.
+
+21 Nov 2014 11:01:57,557[Thread-507] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=0, modelType=GFSENS, prognosisPeriod=354, analysisDate=2017-11-21]
+21 Nov 2014 12:16:36,930[Thread-1] WARN FileAvailabilityMonitor Filename does not match any known pattern: /data/nccf/com/gfs/para/gfs.2014112000/gfs.t00z.pgrb2.2p50.f006
+21 Nov 2014 13:46:12,146[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=6, analysisDate=2014-11-20]
+21 Nov 2014 13:46:31,554[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=12, analysisDate=2014-11-20]
+21 Nov 2014 13:46:45,496[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=18, analysisDate=2014-11-20]
+21 Nov 2014 13:46:59,438[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=24, analysisDate=2014-11-20]
+21 Nov 2014 13:47:14,146[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=6, analysisDate=2014-11-20]
+21 Nov 2014 13:47:19,277[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=30, analysisDate=2014-11-20]
+21 Nov 2014 13:47:33,463[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=36, analysisDate=2014-11-20]
+21 Nov 2014 13:47:35,002[qtp1777778882-54] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T00:47:34.990Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 13:47:47,653[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=42, analysisDate=2014-11-20]
+21 Nov 2014 13:48:02,573[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=48, analysisDate=2014-11-20]
+21 Nov 2014 13:48:13,363[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=12, analysisDate=2014-11-20]
+21 Nov 2014 13:48:16,533[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=54, analysisDate=2014-11-20]
+21 Nov 2014 13:48:30,681[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=60, analysisDate=2014-11-20]
+21 Nov 2014 13:48:44,399[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=66, analysisDate=2014-11-20]
+21 Nov 2014 13:48:58,836[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=72, analysisDate=2014-11-20]
+21 Nov 2014 13:49:12,767[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=78, analysisDate=2014-11-20]
+21 Nov 2014 13:49:14,881[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=18, analysisDate=2014-11-20]
+21 Nov 2014 13:49:26,960[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=84, analysisDate=2014-11-20]
+21 Nov 2014 13:49:41,824[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=90, analysisDate=2014-11-20]
+21 Nov 2014 13:49:55,787[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=96, analysisDate=2014-11-20]
+21 Nov 2014 13:50:09,514[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=102, analysisDate=2014-11-20]
+21 Nov 2014 13:50:15,387[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=24, analysisDate=2014-11-20]
+21 Nov 2014 13:50:23,425[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=108, analysisDate=2014-11-20]
+21 Nov 2014 13:50:37,384[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=114, analysisDate=2014-11-20]
+21 Nov 2014 13:50:51,109[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=120, analysisDate=2014-11-20]
+21 Nov 2014 13:51:01,279[qtp1777778882-54] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T00:51:01.279Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIR
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/allAlerts]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIR
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.allAlertsPage(StatusService.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 13:51:05,058[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=126, analysisDate=2014-11-20]
+21 Nov 2014 13:51:17,043[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=30, analysisDate=2014-11-20]
+21 Nov 2014 13:51:19,021[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=132, analysisDate=2014-11-20]
+21 Nov 2014 13:51:33,211[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=138, analysisDate=2014-11-20]
+21 Nov 2014 13:51:47,132[qtp1777778882-55] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T00:51:47.131Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRs
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/allAlerts]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRs
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.allAlertsPage(StatusService.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 13:51:48,130[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=144, analysisDate=2014-11-20]
+21 Nov 2014 13:51:59,797[qtp1777778882-52] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T00:51:59.797Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRs
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/allAlerts]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRs
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.allAlertsPage(StatusService.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 13:52:01,838[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=150, analysisDate=2014-11-20]
+21 Nov 2014 13:52:15,557[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=156, analysisDate=2014-11-20]
+21 Nov 2014 13:52:23,608[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=36, analysisDate=2014-11-20]
+21 Nov 2014 13:52:29,289[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=162, analysisDate=2014-11-20]
+21 Nov 2014 13:52:42,997[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=168, analysisDate=2014-11-20]
+21 Nov 2014 13:52:56,947[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=174, analysisDate=2014-11-20]
+21 Nov 2014 13:53:10,653[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=180, analysisDate=2014-11-20]
+21 Nov 2014 13:53:24,610[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=186, analysisDate=2014-11-20]
+21 Nov 2014 13:53:36,090[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=42, analysisDate=2014-11-20]
+21 Nov 2014 13:53:38,557[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=192, analysisDate=2014-11-20]
+21 Nov 2014 13:53:55,618[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=204, analysisDate=2014-11-20]
+21 Nov 2014 13:54:10,050[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=216, analysisDate=2014-11-20]
+21 Nov 2014 13:54:24,970[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=228, analysisDate=2014-11-20]
+21 Nov 2014 13:54:36,227[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=48, analysisDate=2014-11-20]
+21 Nov 2014 13:54:39,427[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=240, analysisDate=2014-11-20]
+21 Nov 2014 13:54:53,856[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=252, analysisDate=2014-11-20]
+21 Nov 2014 13:55:09,241[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=264, analysisDate=2014-11-20]
+21 Nov 2014 13:55:23,421[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=276, analysisDate=2014-11-20]
+21 Nov 2014 13:55:35,327[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=54, analysisDate=2014-11-20]
+21 Nov 2014 13:55:37,842[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=288, analysisDate=2014-11-20]
+21 Nov 2014 13:55:52,043[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=300, analysisDate=2014-11-20]
+21 Nov 2014 13:56:06,479[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=312, analysisDate=2014-11-20]
+21 Nov 2014 13:56:20,893[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=324, analysisDate=2014-11-20]
+21 Nov 2014 13:56:36,967[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=60, analysisDate=2014-11-20]
+21 Nov 2014 13:56:42,943[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=336, analysisDate=2014-11-20]
+21 Nov 2014 13:56:57,117[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=348, analysisDate=2014-11-20]
+21 Nov 2014 13:57:11,531[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=360, analysisDate=2014-11-20]
+21 Nov 2014 13:57:26,183[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=372, analysisDate=2014-11-20]
+21 Nov 2014 13:57:37,816[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=66, analysisDate=2014-11-20]
+21 Nov 2014 13:57:40,840[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=384, analysisDate=2014-11-20]
+21 Nov 2014 13:58:38,406[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=72, analysisDate=2014-11-20]
+21 Nov 2014 13:59:37,382[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=78, analysisDate=2014-11-20]
+21 Nov 2014 14:00:38,229[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=84, analysisDate=2014-11-20]
+21 Nov 2014 14:01:49,036[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=90, analysisDate=2014-11-20]
+21 Nov 2014 14:02:54,893[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=96, analysisDate=2014-11-20]
+21 Nov 2014 14:03:54,983[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=102, analysisDate=2014-11-20]
+21 Nov 2014 14:04:54,851[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=108, analysisDate=2014-11-20]
+21 Nov 2014 14:06:00,029[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=114, analysisDate=2014-11-20]
+21 Nov 2014 14:06:59,105[qtp1777778882-54] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:06:59.105Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIR
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/allAlerts]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIR
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.allAlertsPage(StatusService.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:06:59,599[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=120, analysisDate=2014-11-20]
+21 Nov 2014 14:08:12,169[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=126, analysisDate=2014-11-20]
+21 Nov 2014 14:09:17,627[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=132, analysisDate=2014-11-20]
+21 Nov 2014 14:10:26,449[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=138, analysisDate=2014-11-20]
+21 Nov 2014 14:11:26,791[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=144, analysisDate=2014-11-20]
+21 Nov 2014 14:12:26,902[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=150, analysisDate=2014-11-20]
+21 Nov 2014 14:13:32,911[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=156, analysisDate=2014-11-20]
+21 Nov 2014 14:14:32,889[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=162, analysisDate=2014-11-20]
+21 Nov 2014 14:15:37,662[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=168, analysisDate=2014-11-20]
+21 Nov 2014 14:16:35,694[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=174, analysisDate=2014-11-20]
+21 Nov 2014 14:17:37,507[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=180, analysisDate=2014-11-20]
+21 Nov 2014 14:18:43,286[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=186, analysisDate=2014-11-20]
+21 Nov 2014 14:19:44,628[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=192, analysisDate=2014-11-20]
+21 Nov 2014 14:20:44,816[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=198, analysisDate=2014-11-20]
+21 Nov 2014 14:22:15,350[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=6, analysisDate=2014-11-20]
+21 Nov 2014 14:22:34,600[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=12, analysisDate=2014-11-20]
+21 Nov 2014 14:22:48,826[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=18, analysisDate=2014-11-20]
+21 Nov 2014 14:23:03,223[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=24, analysisDate=2014-11-20]
+21 Nov 2014 14:23:17,376[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=30, analysisDate=2014-11-20]
+21 Nov 2014 14:23:24,825[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=6, analysisDate=2014-11-20]
+21 Nov 2014 14:23:31,540[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=36, analysisDate=2014-11-20]
+21 Nov 2014 14:23:45,293[qtp2012405542-58] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:23:45.292Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:23:45,699[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=42, analysisDate=2014-11-20]
+21 Nov 2014 14:23:59,852[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=48, analysisDate=2014-11-20]
+21 Nov 2014 14:24:14,954[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=54, analysisDate=2014-11-20]
+21 Nov 2014 14:24:24,017[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=12, analysisDate=2014-11-20]
+21 Nov 2014 14:24:29,121[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=60, analysisDate=2014-11-20]
+21 Nov 2014 14:24:43,546[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=66, analysisDate=2014-11-20]
+21 Nov 2014 14:24:57,678[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=72, analysisDate=2014-11-20]
+21 Nov 2014 14:25:11,828[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=78, analysisDate=2014-11-20]
+21 Nov 2014 14:25:22,293[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=18, analysisDate=2014-11-20]
+21 Nov 2014 14:25:26,468[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=84, analysisDate=2014-11-20]
+21 Nov 2014 14:25:40,863[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=90, analysisDate=2014-11-20]
+21 Nov 2014 14:25:54,850[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=96, analysisDate=2014-11-20]
+21 Nov 2014 14:26:08,741[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=102, analysisDate=2014-11-20]
+21 Nov 2014 14:26:22,335[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=24, analysisDate=2014-11-20]
+21 Nov 2014 14:26:22,842[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=108, analysisDate=2014-11-20]
+21 Nov 2014 14:26:36,764[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=114, analysisDate=2014-11-20]
+21 Nov 2014 14:26:50,675[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=120, analysisDate=2014-11-20]
+21 Nov 2014 14:27:04,568[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=126, analysisDate=2014-11-20]
+21 Nov 2014 14:27:06,809[qtp2012405542-54] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:27:06.809Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIR
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIR
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:27:18,471[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=132, analysisDate=2014-11-20]
+21 Nov 2014 14:27:28,240[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=30, analysisDate=2014-11-20]
+21 Nov 2014 14:27:32,375[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=138, analysisDate=2014-11-20]
+21 Nov 2014 14:27:46,283[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=144, analysisDate=2014-11-20]
+21 Nov 2014 14:28:00,187[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=150, analysisDate=2014-11-20]
+21 Nov 2014 14:28:16,974[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=156, analysisDate=2014-11-20]
+21 Nov 2014 14:28:30,906[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=162, analysisDate=2014-11-20]
+21 Nov 2014 14:28:32,009[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=36, analysisDate=2014-11-20]
+21 Nov 2014 14:28:44,808[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=168, analysisDate=2014-11-20]
+21 Nov 2014 14:28:58,743[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=174, analysisDate=2014-11-20]
+21 Nov 2014 14:29:12,858[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=180, analysisDate=2014-11-20]
+21 Nov 2014 14:29:27,003[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=186, analysisDate=2014-11-20]
+21 Nov 2014 14:29:41,157[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=192, analysisDate=2014-11-20]
+21 Nov 2014 14:29:48,643[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=42, analysisDate=2014-11-20]
+21 Nov 2014 14:29:55,582[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=204, analysisDate=2014-11-20]
+21 Nov 2014 14:30:10,250[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=216, analysisDate=2014-11-20]
+21 Nov 2014 14:30:24,900[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=228, analysisDate=2014-11-20]
+21 Nov 2014 14:30:39,807[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=240, analysisDate=2014-11-20]
+21 Nov 2014 14:30:47,924[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=48, analysisDate=2014-11-20]
+21 Nov 2014 14:30:54,434[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=252, analysisDate=2014-11-20]
+21 Nov 2014 14:31:09,065[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=264, analysisDate=2014-11-20]
+21 Nov 2014 14:31:23,463[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=276, analysisDate=2014-11-20]
+21 Nov 2014 14:31:39,355[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=288, analysisDate=2014-11-20]
+21 Nov 2014 14:31:39,716[qtp2012405542-57] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:31:39.716Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:31:41,776[qtp2012405542-54] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:31:41.776Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:31:42,107[qtp2012405542-57] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:31:42.106Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:31:51,171[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=54, analysisDate=2014-11-20]
+21 Nov 2014 14:31:53,774[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=300, analysisDate=2014-11-20]
+21 Nov 2014 14:32:08,185[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=312, analysisDate=2014-11-20]
+21 Nov 2014 14:32:22,816[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=324, analysisDate=2014-11-20]
+21 Nov 2014 14:32:25,292[qtp2012405542-57] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:32:25.292Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:32:37,453[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=336, analysisDate=2014-11-20]
+21 Nov 2014 14:32:51,843[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=348, analysisDate=2014-11-20]
+21 Nov 2014 14:32:52,888[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=60, analysisDate=2014-11-20]
+21 Nov 2014 14:33:06,228[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=360, analysisDate=2014-11-20]
+21 Nov 2014 14:33:20,816[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=372, analysisDate=2014-11-20]
+21 Nov 2014 14:33:35,458[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSDET, prognosisPeriod=384, analysisDate=2014-11-20]
+21 Nov 2014 14:33:54,107[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=66, analysisDate=2014-11-20]
+21 Nov 2014 14:33:59,304[qtp2012405542-58] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:33:59.303Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:34:52,451[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=72, analysisDate=2014-11-20]
+21 Nov 2014 14:35:51,088[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=78, analysisDate=2014-11-20]
+21 Nov 2014 14:36:51,171[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=84, analysisDate=2014-11-20]
+21 Nov 2014 14:37:30,359[qtp2012405542-57] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:37:30.358Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:37:49,607[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=90, analysisDate=2014-11-20]
+21 Nov 2014 14:38:54,175[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=96, analysisDate=2014-11-20]
+21 Nov 2014 14:39:29,211[qtp2012405542-55] WARN FastDmoAppMonitor Queueing Alert:
+Severity:         UNKNOWN SEVERITY - (Not enough information to determine severity.)
+Title:            Generic Alert
+Time:             2014-11-21T01:39:29.210Z
+Issue Type:       Unhandled exception.
+SDA Action:       Raise an incident and assign it to Application Support.
+Action Taken:     Unknown.
+Affected Scope:   Unknown
+The reason for the Failure is:
+
+Unhandled error:  java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+
+Diagnostic Info:
+----------------------------------------------------
+
+Message Context:
+ MODEL_TYPE=null ENSEMBLE_ID=null TIME_BASE=null PROGNOSIS=null FIELD_NAME=null FIELD_LEVELnull PACKAGE_NAME=null
+
+In Message:
+Message: [Body is null]
+
+Out Message:
+Message: [Body is null]
+
+Route Id:alertsDetailsByPriorityPage
+
+From Endpoint:Endpoint[http://0.0.0.0:8090/alerts/byPriority]
+
+Exception:
+java.lang.IllegalArgumentException: No enum constant com.metservice.fastdmo.monitoring.AlertMessageRecorder.Order.FIRST
+	at java.lang.Enum.valueOf(Enum.java:236)
+	at com.metservice.fastdmo.monitoring.AlertMessageRecorder$Order.valueOf(AlertMessageRecorder.java:1)
+	at com.metservice.fastdmo.website.StatusService.alertsByPriorityPage(StatusService.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.camel.component.bean.MethodInfo.invoke(MethodInfo.java:409)
+	at org.apache.camel.component.bean.MethodInfo$1.doProceed(MethodInfo.java:278)
+	at org.apache.camel.component.bean.MethodInfo$1.proceed(MethodInfo.java:251)
+	at org.apache.camel.component.bean.BeanProcessor.process(BeanProcessor.java:166)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:72)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:398)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:118)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:80)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:191)
+	at org.apache.camel.component.jetty.CamelContinuationServlet.service(CamelContinuationServlet.java:113)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:806)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:547)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1359)
+	at org.eclipse.jetty.servlets.MultiPartFilter.doFilter(MultiPartFilter.java:97)
+	at org.apache.camel.component.jetty.CamelFilterWrapper.doFilter(CamelFilterWrapper.java:44)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1330)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:478)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:941)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:409)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:875)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:471)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:110)
+	at org.eclipse.jetty.server.Server.handle(Server.java:349)
+	at org.eclipse.jetty.server.HttpConnection.handleRequest(HttpConnection.java:441)
+	at org.eclipse.jetty.server.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:919)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:582)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:218)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:51)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:586)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:44)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:598)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:533)
+	at java.lang.Thread.run(Thread.java:744)
+
+
+
+
+21 Nov 2014 14:39:53,330[Thread-1] INFO FileAvailabilityMonitor Input available: InputDataKey [analysisTime=18, modelType=GFSENS, prognosisPeriod=102, analysisDate=2014-11-20]
