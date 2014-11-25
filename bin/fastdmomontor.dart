@@ -9,6 +9,8 @@ import 'server.dart';
 import 'monitor_health.dart';
 import 'monitor_health_utils.dart' as monitor_health_utils;
 
+import 'package:intl/intl.dart';
+
 
 Directory logDirectory = new Directory("logging");
 int scancount = 0;
@@ -23,6 +25,8 @@ List<Server> servers = [new Server("ec.prod", "isapps:M3ts3rv1c3@fastdmo-ec.amaz
 
 List<MonitorHealth> healthMonitors = [];
 
+DateFormat df = new DateFormat("d-HHmmss");
+
 void setUpLogger() {
 
   logDirectory.create();
@@ -32,7 +36,7 @@ void setUpLogger() {
   Logger.root.level = Level.INFO;
   Logger.root.onRecord.listen((LogRecord rec) {
 
-    String msg = '${rec.level.name}: ${monitor_health_utils.formatTime( rec.time)}: ${rec.message}';
+    String msg = '${rec.level.name}: ${monitor_health_utils.formatTime( rec.time.toUtc())} UTC  (${df.format( rec.time)} NZT) : ${rec.message}';
     logger.writeAsString(msg + "\n", mode: FileMode.APPEND, flush: true);
     print(msg);
   });
