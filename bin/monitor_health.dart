@@ -12,6 +12,10 @@ import 'package:http/http.dart' as http;
 import 'server.dart';
 import 'monitor_health_utils.dart' as monitor_health_utils;
 
+//Callback  
+typedef void HadFailure( Server server, String status, File logFile, File htmlFile);
+
+
 class MonitorHealth {
 
   Logger log = new Logger("monitor_health");
@@ -20,8 +24,9 @@ class MonitorHealth {
 
   MonitorHealth( this.logDirectory, this.server);
   
+
 /**Public access through this method*/
-  void scanServer() {
+  void scanServer( HadFailure callback) {
     getStatus(server).then((result) => processStatus(server, result));
    
   }

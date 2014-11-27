@@ -42,13 +42,16 @@ void setUpLogger() {
   });
 }
 
+void hadFailure( Server server, String status, File logFile, File htmlFile){
+  
+}
 void scanServers(){
   if (scancount % 10 == 0) {
       log.info("Scannning servers ${scancount} attempt");
     }
     scancount++;
   
-  healthMonitors.forEach( (healthMonitor) => healthMonitor.scanServer());
+  healthMonitors.forEach( (healthMonitor) => healthMonitor.scanServer( hadFailure));
 }
 
 void main() {
