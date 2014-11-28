@@ -4,12 +4,8 @@ import "dart:async";
 import "dart:core";
 import "dart:io";
 import "package:logging/logging.dart";
-
-
-
-
 import 'package:http/http.dart' as http;
-import 'server.dart';
+import '../lib/server.dart';
 import 'monitor_health_utils.dart' as monitor_health_utils;
 
 //Callback  
@@ -21,12 +17,13 @@ class MonitorHealth {
   Logger log = new Logger("monitor_health");
   final Directory logDirectory;
   final Server server;
+  final HadFailure hadFailureCallback;
 
-  MonitorHealth( this.logDirectory, this.server);
+  MonitorHealth( this.logDirectory, this.server, this.hadFailureCallback);
   
 
 /**Public access through this method*/
-  void scanServer( HadFailure callback) {
+  void scanServer( ) {
     getStatus(server).then((result) => processStatus(server, result));
    
   }

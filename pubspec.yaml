@@ -4,4 +4,6 @@ dependencies:
   http: any
   http_server: any
   intl: any
+  jsonx: any
   logging: any
+  unittest: any

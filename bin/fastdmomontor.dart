@@ -5,7 +5,7 @@ import "dart:core";
 import "dart:io";
 import "package:logging/logging.dart";
 
-import 'server.dart';
+import '../lib/server.dart';
 import 'monitor_health.dart';
 import 'monitor_health_utils.dart' as monitor_health_utils;
 
@@ -20,7 +20,7 @@ List<Server> servers = [new Server("ec.prod", "isapps:M3ts3rv1c3@fastdmo-ec.amaz
                         new Server("gfs.prod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon.metcloudservices.com:8080"), 
                         new Server("ec.preprod", "isapps:M3ts3rv1c3@fastdmo-ec.amazon-preprod.metcloudservices.com:8080"), 
                         new Server("gfs.preprod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon-preprod.metcloudservices.com:8080"), 
-//                        new Server("localhost", "isapps:Metservice@localhost:8090"),
+                        new Server("localhost", "isapps:Metservice@localhost:8090"),
                         ];
 
 List<MonitorHealth> healthMonitors = [];
@@ -51,7 +51,7 @@ void scanServers(){
     }
     scancount++;
   
-  healthMonitors.forEach( (healthMonitor) => healthMonitor.scanServer( hadFailure));
+  healthMonitors.forEach( (healthMonitor) => healthMonitor.scanServer());
 }
 
 void main() {
@@ -61,7 +61,7 @@ void main() {
   
   servers.forEach( (Server server) {
     
-    healthMonitors.add( new MonitorHealth(logDirectory, server));
+    healthMonitors.add( new MonitorHealth(logDirectory, server, hadFailure));
     log.info("Starting up monitor for ${server.name}");
   });
   
