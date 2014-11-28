@@ -7,16 +7,16 @@ import "dart:io";
 import 'dart:async';
 
 
-String jsonAlertMessage ='{"serverName":"test","status":"P1 4","logFile":"test.log","htmlFile":"test.html","when":"2014-11-28 02:29:33.228Z"}';
-String jsonAlertMessageList ='[${jsonAlertMessage}]';
+String jsonAlertMessage = '{"serverName":"test","status":"P1 4","logFile":"test.log","htmlFile":"test.html","when":"2014-11-28 02:29:33.228Z"}';
+String jsonAlertMessageList = '[${jsonAlertMessage}]';
 
 void main() {
 
   Server server = new Server("test", "http://test");
   File logFile = new File("dir/test.log");
   File htmlFile = new File("dir/test.html");
-  
-  DateTime now = DateTime.parse( "2014-11-28 02:29:33.228Z");
+
+  DateTime now = DateTime.parse("2014-11-28 02:29:33.228Z");
 
   group("failure_recorder", () {
 
@@ -49,12 +49,9 @@ void main() {
     });
     test('New file should contain a empty json document', () {
 
-      //Wait for the file to be written 
-      return new Future.delayed(new Duration(milliseconds: 200), () {
+      String fileContents = outputFile.readAsStringSync();
+      expect(fileContents, equals("[]"));
 
-        String fileContents = outputFile.readAsStringSync();
-        expect(fileContents, equals("[]"));
-      });
     });
 
     group("Adding a fault", () {
@@ -67,66 +64,66 @@ void main() {
         FaultRecord fault = underTest.failures[0];
         expect(fault.serverName, equals(server.name));
         expect(fault.status, equals("P3 1"));
-        expect(fault.logFile, equals( "test.log"));
-        expect(fault.htmlFile, equals( "test.html"));
+        expect(fault.logFile, equals("test.log"));
+        expect(fault.htmlFile, equals("test.html"));
       });
 
       test('should write any faultRecord  that occure to file on disk', () {
-        
-        underTest.hadFailure(server, "P1 4", logFile, htmlFile, when:now);
-        
-        return new Future.delayed( new Duration( milliseconds:200), (){
-          String fileContents = outputFile.readAsStringSync();
-          expect( fileContents, equals( jsonAlertMessageList));
-        });
+
+        underTest.hadFailure(server, "P1 4", logFile, htmlFile, when: now);
+
+
+        String fileContents = outputFile.readAsStringSync();
+        expect(fileContents, equals(jsonAlertMessageList));
+
 
       });
     });
-    
-    solo_test( "should load old records from file on startup", (){
-      
-      outputFile.writeAsStringSync( jsonAlertMessageList);
+
+    solo_test("should load old records from file on startup", () {
+
+      outputFile.writeAsStringSync(jsonAlertMessageList);
       underTest = new FailureRecorder(outputDirectory);
-            
+
       expect(underTest.failures.length, equals(1));
 
       FaultRecord fault = underTest.failures[0];
       expect(fault.serverName, equals(server.name));
       expect(fault.status, equals("P1 4"));
-      expect(fault.logFile, equals( "test.log"));
-      expect(fault.htmlFile, equals( "test.html"));
-      expect(fault.when, equals( now));
+      expect(fault.logFile, equals("test.log"));
+      expect(fault.htmlFile, equals("test.html"));
+      expect(fault.when, equals(now));
     });
   });
-  
-  group( "json tests of FaultRecord", (){
-    
-    test( "stream to json", (){      
+
+  group("json tests of FaultRecord", () {
+
+    test("stream to json", () {
       FaultRecord fr = new FaultRecord.create(server, "P1 4", logFile, htmlFile);
       fr.when = now;
-      
-      expect( jsonx.encode( fr), equals( jsonAlertMessage));      
-    });
-    
-    test( "stream list to json", (){      
-      FaultRecord fr = new FaultRecord.create(server, "P1 4", logFile, htmlFile);
-      fr.when = now;
-      
-      expect( jsonx.encode( [fr]), equals( jsonAlertMessageList));      
+
+      expect(jsonx.encode(fr), equals(jsonAlertMessage));
     });
 
-    test( "stream json to List", (){      
-      
+    test("stream list to json", () {
+      FaultRecord fr = new FaultRecord.create(server, "P1 4", logFile, htmlFile);
+      fr.when = now;
+
+      expect(jsonx.encode([fr]), equals(jsonAlertMessageList));
+    });
+
+    test("stream json to List", () {
+
       String json = jsonAlertMessageList;
-      var records = jsonx.decode( json, type: const jsonx.TypeHelper<List<FaultRecord>>().type);
+      var records = jsonx.decode(json, type: const jsonx.TypeHelper<List<FaultRecord>>().type);
       FaultRecord fault = records[0];
       expect(fault.serverName, equals(server.name));
       expect(fault.status, equals("P1 4"));
-      expect(fault.logFile, equals( "test.log"));
-      expect(fault.htmlFile, equals( 'test.html'));
-      expect(fault.when, equals( now));
+      expect(fault.logFile, equals("test.log"));
+      expect(fault.htmlFile, equals('test.html'));
+      expect(fault.when, equals(now));
 
-      
+
     });
 
   });
