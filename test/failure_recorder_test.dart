@@ -4,7 +4,7 @@ import 'package:FastDMOMontor/server.dart';
 import 'package:path/path.dart' as path;
 import 'package:jsonx/jsonx.dart' as jsonx;
 import "dart:io";
-import 'dart:async';
+
 
 
 String jsonAlertMessage = '{"serverName":"test","status":"P1 4","logFile":"test.log","htmlFile":"test.html","when":"2014-11-28 02:29:33.228Z"}';
@@ -80,7 +80,7 @@ void main() {
       });
     });
 
-    solo_test("should load old records from file on startup", () {
+    test("should load old records from file on startup", () {
 
       outputFile.writeAsStringSync(jsonAlertMessageList);
       underTest = new FailureRecorder(outputDirectory);

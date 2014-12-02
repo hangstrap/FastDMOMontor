@@ -60,8 +60,9 @@ class MonitorHealth {
             server.status = "error";
             break;
           default:
-            downloadCurrentLog(server, status);
-            downloadAlertPage(server, status);
+            File logFile = downloadCurrentLog(server, status);
+            File htmlFile = downloadAlertPage(server, status);
+            hadFailureCallback( server, status, logFile, htmlFile);
             break;
         }
       }
@@ -69,7 +70,8 @@ class MonitorHealth {
     server.status = status;
 
   }
-  void downloadAlertPage(Server server, String status) {
+  
+  File downloadAlertPage(Server server, String status) {
 
     Uri url = new Uri.http(server.url, "alerts/allAlerts", {
       "order": "INITIAL"
@@ -78,8 +80,10 @@ class MonitorHealth {
 
     File output = createFileName(server, status, "html");
     downloadAndSaveToDisk(url, output);
+    return output;
   }
-  void downloadCurrentLog(Server server, String status) {
+  
+  File downloadCurrentLog(Server server, String status) {
 
     Uri url = new Uri.http(server.url, "/downloadFile", {
       "path": "log/fastdmo.${server.name}.log"
@@ -89,8 +93,9 @@ class MonitorHealth {
 
     File output = createFileName(server, status, "log");
     downloadAndSaveToDisk(url, output);
-
+    return output;
   }
+
   void downloadAndSaveToDisk(Uri url, File output) {
 
     http.get(url).then((response) {

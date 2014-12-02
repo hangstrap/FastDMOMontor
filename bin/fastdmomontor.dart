@@ -10,6 +10,7 @@ import 'monitor_health.dart';
 import 'monitor_health_utils.dart' as monitor_health_utils;
 
 import 'package:intl/intl.dart';
+import '../lib/failure_recorder.dart';
 
 
 Directory logDirectory = new Directory("logging");
@@ -42,9 +43,6 @@ void setUpLogger() {
   });
 }
 
-void hadFailure( Server server, String status, File logFile, File htmlFile){
-  
-}
 void scanServers(){
   if (scancount % 10 == 0) {
       log.info("Scannning servers ${scancount} attempt");
@@ -59,9 +57,11 @@ void main() {
   setUpLogger();
   Duration scanDuration = new Duration(seconds: 15);
   
+  FailureRecorder failureRecorder = new FailureRecorder(logDirectory); 
+  
   servers.forEach( (Server server) {
     
-    healthMonitors.add( new MonitorHealth(logDirectory, server, hadFailure));
+    healthMonitors.add( new MonitorHealth(logDirectory, server, failureRecorder.hadFailure));
     log.info("Starting up monitor for ${server.name}");
   });
   
