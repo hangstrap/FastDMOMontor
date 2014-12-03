@@ -21,7 +21,7 @@ List<Server> servers = [new Server("ec.prod", "isapps:M3ts3rv1c3@fastdmo-ec.amaz
                         new Server("gfs.prod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon.metcloudservices.com:8080"), 
                         new Server("ec.preprod", "isapps:M3ts3rv1c3@fastdmo-ec.amazon-preprod.metcloudservices.com:8080"), 
                         new Server("gfs.preprod", "isapps:M3ts3rv1c3@fastdmo-gfs.amazon-preprod.metcloudservices.com:8080"), 
-                        new Server("localhost", "isapps:Metservice@localhost:8090"),
+                       // new Server("localhost", "isapps:Metservice@localhost:8090"),
                         ];
 
 List<MonitorHealth> healthMonitors = [];

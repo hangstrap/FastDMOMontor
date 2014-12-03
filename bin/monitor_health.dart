@@ -36,7 +36,11 @@ class MonitorHealth {
 
     Uri url = new Uri.http(server.url, "health");
     http.get(url).then((response) {
-      completer.complete(response.body);
+      if( response.statusCode == 200){
+        completer.complete(response.body);
+      }else{
+        throw "receved status of ${response.statusCode}";
+      }
     }).catchError((e) {
       log.info("Could not access server ${server.name} ${e}");
       completer.complete("error");
