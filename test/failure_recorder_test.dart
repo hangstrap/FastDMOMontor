@@ -94,6 +94,18 @@ void main() {
       expect(fault.htmlFile, equals("test.html"));
       expect(fault.when, equals(now));
     });
+    
+    group("Dao functions", (){
+        test( "should null if no records",  (){
+          expect( underTest.findFirstRecord(), equals( null));
+        });      
+        test( "should return first record",  (){
+          var fr = underTest.hadFailure(server, "P1 1", logFile, htmlFile); 
+          underTest.hadFailure(server, "P1 2", logFile, htmlFile);
+          expect( underTest.findFirstRecord(), equals( fr));
+        });      
+    });
+
   });
 
   group("json tests of FaultRecord", () {

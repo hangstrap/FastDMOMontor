@@ -1,0 +1,12 @@
+table, td{
+      width: 100%;
+     border:1px solid black;   
+     border-collapse: collapse; 
+}
+td {   
+    text-align: center;
+    width: 25%
+}
+li {
+    text-align: left;
+}

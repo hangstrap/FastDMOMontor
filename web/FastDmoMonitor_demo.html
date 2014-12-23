@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastDmoMonitor</title>
+  </head>
+ 
+  <body>   
+    <h3>Fast DMO Monitor</h3>
+    <p id="text"></p>
+    <script type="application/dart" src="FastDmoMonitor.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+    
+    <table>
+      <thead>
+      <tr>
+        <td>date</td>
+        <td colspan="2">PROD</td><td colspan="2">PRE-PROD</td>
+      </tr>
+      <tr>
+        <td/><td>EC</td><td>GFS</td><td>EC</td><td>GFS</td>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2014 Dec 12</td>
+          <td>
+            <ul>
+              <li>09:45Z 22:45NZST <a href="">html</a> <a href="">log</a> </li>
+              <li>10:45Z 23:45NZST <a href="">html</a> <a href="">log</a></li> 
+              <li>11:45Z 23:45NZST <a href="">html</a> <a href="">log</a></li>  
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>09:45Z 22:45NZST <a href="">html</a> <a href="">log</a> </li>
+            </ul>          
+          </td>
+          <td>
+          </td>
+          <td>
+            <ul>
+              <li>09:45Z 22:45NZST <a href="">html</a> <a href="">log</a></li>
+            </ul>          
+          </td>          
+        </tr>
+        <tr><td>2014 Dec 13</td><td/><td/><td/><td/></tr>
+        <tr><td>2014 Dec 14</td><td/><td/><td/><td/></tr>
+        <tr><td>2014 Dec 15</td><td/><td/><td/><td/></tr>
+        
+      </tbody>
+    </table>
+    
+  </body>
+</html>

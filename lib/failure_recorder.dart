@@ -17,7 +17,7 @@ class FailureRecorder{
   }
 
 
-  void hadFailure( Server server, String status, File logFile, File htmlFile, {DateTime when:null}){
+  FaultRecord hadFailure( Server server, String status, File logFile, File htmlFile, {DateTime when:null}){
     
     FaultRecord fr = new FaultRecord.create(server, status, logFile, htmlFile);
     if( when != null){
@@ -25,6 +25,8 @@ class FailureRecorder{
     }
     failures.add( fr);
     _updateOutputFile();
+    
+    return fr;
   }
 
   void _createOutputFile(Directory directory) {
@@ -42,6 +44,14 @@ class FailureRecorder{
   void _loadFromOutputFile(){
     String json = jsonFile.readAsStringSync( );
     failures= jsonx.decode( json, type: const jsonx.TypeHelper<List<FaultRecord>>().type);
+  }
+  
+  
+  FaultRecord findFirstRecord(){
+    if( failures.length > 0){
+      return failures.first;
+    }
+    return null;
   }
 }
 

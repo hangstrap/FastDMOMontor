@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastDmoMonitor</title>
+  </head>
+ 
+  <body>   
+    <h3>Fast DMO Monitor</h3>
+    <p id="text"></p>
+    <script type="application/dart" src="FastDmoMonitor.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+    
+    <table>
+      <thead>
+      <tr>
+        <td>date</td>
+        <td colspan="2">PROD</td><td colspan="2">PRE-PROD</td>
+      </tr>
+      <tr>
+        <td/><td>EC</td><td>GFS</td><td>EC</td><td>GFS</td>
+      </tr>
+      </thead>
+      <tbody>
+        <!--magic goes here -->        
+      </tbody>
+    </table>
+    
+  </body>
+</html>
